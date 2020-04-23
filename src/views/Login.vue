@@ -13,7 +13,7 @@
             <input type="submit" value="登录" class="submit" @click="login">
         </form>
         <div class="footer">
-            <p>帮助 反馈</p>
+            <p>帮助反馈</p>
             <p>登录即代表您同意<a href="">用户协议</a>和<a href="">隐私政策</a></p>
         </div>
     </div>
