@@ -1,58 +1,75 @@
-.home{
+.home {
     height: 100%;
-    overflow:auto;
+    overflow: auto;
     margin: 0;
     padding: 0;
 }
-.header{
+
+.header {
     background-color: #dcdcdc70;
-    height: 40px;
+    height: 50px;
     line-height: 50px;
     position: sticky;
     top: 0;
 }
-.content{
-       overflow:auto;
-       height: 403px;
-       position: sticky;
+
+.content {
+    overflow: auto;
+    height: calc(100% - 98px);
+    position: sticky;
 }
-.mint-cell-title{
+
+.mint-cell-title {
     flex: 0;
 }
-.mint-cell-value{
+
+.mint-cell-value {
     width: 100%;
 }
-.content_item{
+
+.content_item {
     width: 100%;
 }
-.content_item img{
+
+.content_item img {
     display: block;
     float: left;
 }
-.iconfont{
-    font-size: 20px;
-    margin-left: 30px;
-  }
-  .head-content{
+
+.search_add {
+    position: absolute;
+    right: 0;
+}
+
+.icon-sousuo {
+    margin-right: 5px;
+}
+
+.icon-tianjia {
+    margin-right: 5px;
+}
+
+.head-content {
     margin-left: 10px;
     font-size: 15px;
     width: 185px;
-   display: inline-block;
-  }
-  .content_item_time{
+    display: inline-block;
+}
+
+.content_item_time {
     height: 20px;
     width: 50px;
-    
     margin-left: 163px;
-  }
-  .content_item_title{
+}
+
+.content_item_title {
     height: 20px;
     width: 50px;
     margin-left: 5px;
-  }
-  .content_item_content{
+}
+
+.content_item_content {
     height: 20px;
     width: 50px;
-  
     margin-left: 5px;
-  }
+}
