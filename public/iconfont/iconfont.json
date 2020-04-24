@@ -6,6 +6,69 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "8470081",
+      "name": "附近的人",
+      "font_class": "fujinderen",
+      "unicode": "e718",
+      "unicode_decimal": 59160
+    },
+    {
+      "icon_id": "9634350",
+      "name": "标签",
+      "font_class": "biaoqian",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "10994625",
+      "name": "新朋友",
+      "font_class": "xinpengyou",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "4101677",
+      "name": "我",
+      "font_class": "wo1",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "4987953",
+      "name": "我",
+      "font_class": "wo2",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "2108336",
+      "name": "发现",
+      "font_class": "faxian3",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "7038643",
+      "name": "发现",
+      "font_class": "faxian1",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "3501858",
+      "name": "通讯录",
+      "font_class": "tongxunlu-yigai",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "10116359",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
       "icon_id": "101099",
       "name": "城市服务",
       "font_class": "chengshifuwu",
@@ -55,25 +118,11 @@
       "unicode_decimal": 58904
     },
     {
-      "icon_id": "691685",
-      "name": "附近的人",
-      "font_class": "fujinderen",
-      "unicode": "e646",
-      "unicode_decimal": 58950
-    },
-    {
       "icon_id": "765553",
       "name": "卡包",
       "font_class": "shouye",
       "unicode": "e627",
       "unicode_decimal": 58919
-    },
-    {
-      "icon_id": "1019976",
-      "name": "标签",
-      "font_class": "label",
-      "unicode": "e628",
-      "unicode_decimal": 58920
     },
     {
       "icon_id": "1149395",
@@ -298,13 +347,6 @@
       "font_class": "dianying",
       "unicode": "e8ae",
       "unicode_decimal": 59566
-    },
-    {
-      "icon_id": "11391500",
-      "name": "发现",
-      "font_class": "faxian",
-      "unicode": "e636",
-      "unicode_decimal": 58934
     },
     {
       "icon_id": "12662246",
