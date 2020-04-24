@@ -1,0 +1,22 @@
+.header{
+    height: 50px;
+    line-height: 50px;
+    position: sticky;
+    top: 0;
+}
+.content{
+    height: calc(100% - 105px);
+}
+.mint-cell-title{
+    flex: 0;
+}
+.mint-cell-value{
+    width: 100%;
+}
+.content_item{
+    width: 100%;
+}
+.content_item img{
+    display: block;
+    float: left;
+}
