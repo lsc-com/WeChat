@@ -4,8 +4,9 @@ import router from './router'
 import '../public/css/reset.css'
 import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
-
-import Mint from 'mint-ui';
+import '../public/iconfont/iconfont.css'
+import Mint from 'mint-ui'
+import '../public/iconfont/iconfont.js'
 Vue.use(Mint);
 
 Vue.use(MintUI)
