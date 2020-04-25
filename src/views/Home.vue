@@ -10,7 +10,6 @@
     <div class="content">
       <!-- v-model="" :强制绑定，绑定data中的数据-->
       <!-- for循环中的item才是当前组件取到的值 -->
-
       <mt-cell-swipe
         :right="[
           {
