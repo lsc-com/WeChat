@@ -19,11 +19,11 @@
                         :key="item.id"
                 >
                     <div class="content_item">
-            <span class="content_item_tongxunlu" style="display:block">
-              <svg aria-hidden="true" class="icon">
-                <use :xlink:href="item.icon"/>
-              </svg>
-            </span>
+                        <span class="content_item_tongxunlu" style="display:block">
+                          <svg aria-hidden="true" class="icon">
+                            <use :xlink:href="item.icon"/>
+                          </svg>
+                        </span>
                         <span class="content_item_content">{{item.content}}</span>
                     </div>
                 </mt-cell-swipe>
@@ -41,11 +41,11 @@
         <mt-tabbar>
             <mt-tab-item :id="item.id" :key="item.id" @click.native="jumpToNeed" v-for="item in list">
                 <router-link :to="{name: item.link}">
-        <span style="display: block">
-          <svg aria-hidden="true" class="icon">
-            <use :xlink:href="item.icon"/>
-          </svg>
-        </span>
+                    <span style="display: block">
+                      <svg aria-hidden="true" class="icon">
+                        <use :xlink:href="item.icon"/>
+                      </svg>
+                    </span>
                 </router-link>
                 <span style="display:block;text-align:center">{{item.name}}</span>
             </mt-tab-item>
