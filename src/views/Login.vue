@@ -34,9 +34,8 @@ export default {
     methods: {
         login(){
             Toast('登录成功');
-            this.$router.push("/find");
-        },
-        
+            this.$router.push("/home");
+        }
         
     },
 }

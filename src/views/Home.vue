@@ -34,12 +34,13 @@
 
     <mt-tabbar>
       <mt-tab-item :id="item.id" v-for="item in list" :key="item.id">
-        <span style="display:block">
-          
+        <router-link :to="{name: item.link}">
+        <span style="display: block">
           <svg class="icon" aria-hidden="true">
             <use :xlink:href="item.icon" />
           </svg>
         </span>
+        </router-link>
           <span style="display:block;text-align:center">{{item.name}}</span>
       </mt-tab-item>
     </mt-tabbar>
@@ -145,9 +146,9 @@ export default {
         },
       ],
       list: [
-        { id: "tab1", icon: "#icon-xiaoxi", name: "微信" },
-        { id: "tab2", icon: "#icon-tongxunlu-yigai", name: "通讯录" ,tongxunlu:""},
-        { id: "tab3", icon: "#icon-faxian3", name: "发现" },
+        { id: "tab1", icon: "#icon-xiaoxi", name: "微信", link:'Home'},
+        { id: "tab2", icon: "#icon-tongxunlu-yigai", name: "通讯录", link: 'Mail'},
+        { id: "tab3", icon: "#icon-faxian3", name: "发现", link:'Find'},
         { id: "tab4", icon: "#icon-wo1", name: "我" }
       ]
     };

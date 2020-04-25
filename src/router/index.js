@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Login from '../views/Login.vue'
+import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
@@ -18,12 +19,12 @@ Vue.use(VueRouter)
   {
     path: '/home',
     name: 'Home',
-    component: () => import('../views/Home.vue')
+    component: Home
   },
   {
-    path: '/mail list',
-    name: 'Mail list',
-    component: () => import('../views/Mail list.vue')
+    path: '/mail',
+    name: 'Mail',
+    component: () => import('../views/Mail.vue')
   },
   {
     path: '/find',

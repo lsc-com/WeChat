@@ -198,3 +198,7 @@ body {
 a {
     text-decoration: none;
 }
+
+.scroll1::-webkit-scrollbar{
+    display:none
+}

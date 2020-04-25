@@ -77,6 +77,10 @@
     width: 50px;
     padding-left: 42px;
 }
+/*消除滚动条*/
+/*.content::-webkit-scrollbar{*/
+/*    width: 0;*/
+/*}*/
 .icon {
     width: 2em;
     height: 2em;
@@ -89,4 +93,17 @@
     height: 20px;
     width: 50px;
     margin-left: 5px;
+}
+
+.mint-indexlist-content::-webkit-scrollbar{
+    width: 0;
+}
+
+.mint-indexlist-content{
+    margin-right: 0 !important;
+}
+
+.mint-indexlist-nav{
+    background-color: #00000000 !important;
+    border: none !important;
 }
