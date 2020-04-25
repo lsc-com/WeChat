@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="header">
-      <span class="head-content">微信</span>
+      <span class="head-content">微信1</span>
       <span class="search_add">
         <i class="iconfont icon-sousuo"></i>
         <i class="iconfont icon-tianjia"></i>
