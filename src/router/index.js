@@ -19,6 +19,16 @@ Vue.use(VueRouter)
     path: '/home',
     name: 'Home',
     component: () => import('../views/Home.vue')
+  },
+  {
+    path: '/mail list',
+    name: 'Mail list',
+    component: () => import('../views/Mail list.vue')
+  },
+  {
+    path: '/find',
+    name: 'Find',
+    component: () => import('../views/Find.vue')
   }
 ]
 

@@ -1,0 +1,85 @@
+.home {
+    height: 100%;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #dcdcdc70;
+    height: 50px;
+    line-height: 50px;
+    position: sticky;
+    top: 0;
+}
+
+.content {
+    overflow: auto;
+    height: calc(100% - 98px);
+    position: sticky;
+}
+
+.mint-cell-title {
+    flex: 0;
+}
+
+.mint-cell-value {
+    width: 100%;
+}
+
+.content_item {
+    width: 100%;
+    height: 48px;
+}
+
+.content_item img {
+    display: block;
+    float: left;
+}
+
+.search_add {
+    position: absolute;
+    right: 0;
+}
+
+.icon-sousuo {
+    margin-right: 5px;
+}
+
+.icon-tianjia {
+    margin-right: 5px;
+}
+
+.head-content {
+    margin-left: 10px;
+    font-size: 15px;
+    width: 185px;
+    display: inline-block;
+}
+
+.content_item_time {
+    height: 20px;
+    width: 50px;
+    margin-left: 158px;
+}
+
+.content_item_title {
+    height: 20px;
+    width: 50px;
+    margin-left: 5px;
+}
+.content_item_home{
+    padding-left: 2px;
+}
+.content_item_content {
+    height: 20px;
+    width: 50px;
+    padding-left: 42px;
+}
+.icon {
+    width: 2em;
+    height: 2em;
+    vertical-align: 0.5em;
+    fill: currentColor;
+    overflow: hidden;
+  }

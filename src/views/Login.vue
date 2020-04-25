@@ -34,7 +34,7 @@ export default {
     methods: {
         login(){
             Toast('登录成功');
-            this.$router.push("/home");
+            this.$router.push("/find");
         },
         
         
@@ -44,9 +44,6 @@ export default {
 
 <style>
 @import '../../public/css/login.css';
-#app{
-    padding: 10px;
-}
 input{
     margin-bottom: .2em;
 }

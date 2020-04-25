@@ -12,13 +12,6 @@ body {
     margin: .5rem auto;
 }
 
-.icon {
-    height: .22rem;
-    text-align: left;
-    padding-left: .2rem;
-    margin-bottom: .2rem;
-}
-
 .icon>a {
     color: #333;
 }
@@ -45,11 +38,6 @@ input {
     height: .45rem;
     width: 3.07rem;
     border-radius: 0.03rem;
-}
-
-a {
-    color: #2cdb2c;
-    text-decoration: none;
 }
 
 .footer {
