@@ -29,7 +29,10 @@
 
 .content_item {
     width: 100%;
+<<<<<<< HEAD
     height: 48px;
+=======
+>>>>>>> 522b674fde4f2f437f8a8ea66cfe3b670bd4b690
 }
 
 .content_item img {
@@ -60,7 +63,11 @@
 .content_item_time {
     height: 20px;
     width: 50px;
+<<<<<<< HEAD
     margin-left: 158px;
+=======
+    margin-left: 163px;
+>>>>>>> 522b674fde4f2f437f8a8ea66cfe3b670bd4b690
 }
 
 .content_item_title {
@@ -68,6 +75,7 @@
     width: 50px;
     margin-left: 5px;
 }
+<<<<<<< HEAD
 .content_item_home{
     padding-left: 2px;
 }
@@ -83,3 +91,11 @@
     fill: currentColor;
     overflow: hidden;
   }
+=======
+
+.content_item_content {
+    height: 20px;
+    width: 50px;
+    margin-left: 5px;
+}
+>>>>>>> 522b674fde4f2f437f8a8ea66cfe3b670bd4b690
