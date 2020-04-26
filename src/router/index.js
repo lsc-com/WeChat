@@ -30,6 +30,11 @@ Vue.use(VueRouter)
     path: '/find',
     name: 'Find',
     component: () => import('../views/Find.vue')
+  },
+  {
+    path: '/maildetails',
+    name: 'Maildetails',
+    component: () => import('../views/Maildetails.vue')
   }
 ]
 

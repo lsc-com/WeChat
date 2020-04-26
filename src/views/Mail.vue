@@ -30,10 +30,12 @@
             </div>
             <div class="tongxunlu_bottom">
                 <mt-index-section :index="item.Letter" :key="item.id" v-for="item in section">
-                    <mt-cell title>
+                    <router-link to="Maildetails">
+                    <mt-cell title >
                         <img :src="item.image" alt class="title_img" height="30" width="30" style="border-radius: 5px;"/>
                         <span>{{item.name}}</span>
                     </mt-cell>
+                    </router-link>
                 </mt-index-section>
             </div>
         </mt-index-list>

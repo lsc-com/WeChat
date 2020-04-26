@@ -6,6 +6,27 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "7657589",
+      "name": "视频",
+      "font_class": "shipin",
+      "unicode": "ebd4",
+      "unicode_decimal": 60372
+    },
+    {
+      "icon_id": "11476914",
+      "name": "公众号",
+      "font_class": "tubiaozhizuomoban",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "9963755",
+      "name": "群聊icon",
+      "font_class": "qunliaoicon",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
       "icon_id": "8470081",
       "name": "附近的人",
       "font_class": "fujinderen",
