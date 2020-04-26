@@ -2,25 +2,17 @@
     <div class="home">
         <div class="header">
 
-            <button @click.native="jumpToNeed">test</button>
             <span class="head-content">发现</span>
             <span class="search_add">
-        <i class="iconfont icon-sousuo" @click="jumpToNeed"></i>
+        <i class="iconfont icon-sousuo" ></i>
         <i class="iconfont icon-tianjia"></i>
       </span>
         </div>
         <div class="tongxunlu_top">
             <mt-cell-swipe
-                    :key="item.id"
-                    :right="[
-          {
-            content: 'Delete',
-            style: { background: 'red', color: '#fff' },
-            handler: () => this.$messagebox('delete')
-          }
-        ]"
-                    v-for="item in form"
-            >
+                        v-for="item in form"
+                        :key="item.id"
+                >
                 <div class="content_item">
             <span class="content_item_tongxunlu" style="display:block">
               <svg aria-hidden="true" class="icon">

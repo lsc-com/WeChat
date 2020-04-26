@@ -31,7 +31,7 @@
             <div class="tongxunlu_bottom">
                 <mt-index-section :index="item.Letter" :key="item.id" v-for="item in section">
                     <mt-cell title>
-                        <img :src="item.image" alt class="title_img" height="30" width="30"/>
+                        <img :src="item.image" alt class="title_img" height="30" width="30" style="border-radius: 5px;"/>
                         <span>{{item.name}}</span>
                     </mt-cell>
                 </mt-index-section>
@@ -80,7 +80,7 @@
                     {id: "tab1", icon: "#icon-weixinxiaoxi", name: "微信", link: 'Home'},
                     {id: "tab2", icon: "#icon-tongxunlu", name: "通讯录", link: ''},
                     {id: "tab3", icon: "#icon-faxian3", name: "发现", link: 'Find'},
-                    {id: "tab4", icon: "#icon-wo1", name: "我"}
+                    {id: "tab4", icon: "#icon-wo1", name: "我",link:'About'}
                 ],
                 section: [
                     {
@@ -90,34 +90,64 @@
                     },
                     {
                         image: require("../../public/imgs/touxiang.jpg"),
-                        name: "BBBB",
+                        name: "boyB",
                         Letter: "B"
                     },
                     {
                         image: require("../../public/imgs/touxiang.jpg"),
-                        name: "CCCC",
+                        name: "陈世美",
                         Letter: "C"
                     },
                     {
                         image: require("../../public/imgs/touxiang.jpg"),
-                        name: "DDDD",
+                        name: "滴滴打车",
                         Letter: "D"
                     },
                     {
                         image: require("../../public/imgs/touxiang.jpg"),
-                        name: "EEEE",
+                        name: "饿了么",
                         Letter: "E"
                     },
                     {
                         image: require("../../public/imgs/touxiang.jpg"),
-                        name: "FFFF",
+                        name: "法尔",
                         Letter: "F"
                     },
                     {
-                        //   Letter: "G",
+                      Letter: "G",
                         image: require("../../public/imgs/touxiang.jpg"),
-                        name: "GGGG",
-                    }
+                        name: "高老头",
+                    },
+                     {
+                      Letter: "N",
+                        image: require("../../public/imgs/touxiang.jpg"),
+                        name: "牛蛋儿",
+                    },
+                     {
+                      Letter: "S",
+                        image: require("../../public/imgs/touxiang.jpg"),
+                        name: "首席的",
+                    },
+                     {
+                      Letter: "T",
+                        image: require("../../public/imgs/touxiang.jpg"),
+                        name: "他大爷的",
+                    },
+                     {
+                      Letter: "W",
+                        image: require("../../public/imgs/touxiang.jpg"),
+                        name: "吴哥们",
+                    },
+                     {
+                      Letter: "Y",
+                        image: require("../../public/imgs/touxiang.jpg"),
+                        name: "杨女士",
+                    },
+                     {
+                      Letter: "Z",
+                        image: require("../../public/imgs/touxiang.jpg"),
+                        name: "张先生",
+                    },
                 ]
             };
         },

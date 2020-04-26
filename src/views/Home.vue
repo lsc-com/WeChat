@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="header">
-      <span class="head-content">微信1</span>
+      <span class="head-content">微信</span>
       <span class="search_add">
         <i class="iconfont icon-sousuo"></i>
         <i class="iconfont icon-tianjia"></i>
@@ -22,7 +22,7 @@
         :key="item.id"
       >
         <div class="content_item">
-          <img :src="item.image" alt width="30" height="30" />
+          <img :src="item.image" alt width="30" height="30" style="border-radius: 5px;" />
           <div>
             <span class="content_item_title">{{item.title}}</span>
          <span class="content_item_time" >  {{item.time}}</span>
@@ -149,7 +149,7 @@ export default {
         { id: "tab1", icon: "#icon-xiaoxi", name: "微信", link:'Home'},
         { id: "tab2", icon: "#icon-tongxunlu-yigai", name: "通讯录", link: 'Mail'},
         { id: "tab3", icon: "#icon-faxian3", name: "发现", link:'Find'},
-        { id: "tab4", icon: "#icon-wo1", name: "我" }
+        { id: "tab4", icon: "#icon-wo1", name: "我",link:'About' }
       ]
     };
   },
@@ -164,4 +164,5 @@ export default {
 
 <style>
 @import "../../public/css/home.css";
+.html { overflow-y:hidden; }
 </style>

@@ -12,7 +12,7 @@
             <input type="password" placeholder="请输入密码"><br>
             <input type="submit" value="登录" class="submit" @click="login">
         </form>
-        <div class="footer">
+        <div class="footer" style="center;">
             <p>帮助反馈</p>
             <p>登录即代表您同意<a href="#">用户协议</a>和<a href="">隐私政策</a></p>
         </div>
