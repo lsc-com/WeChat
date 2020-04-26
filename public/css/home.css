@@ -17,6 +17,7 @@
     overflow: auto;
     height: calc(100% - 98px);
     position: sticky;
+    
 }
 
 .mint-cell-title {
@@ -35,6 +36,7 @@
 .content_item img {
     display: block;
     float: left;
+    margin-top: 10px;
 }
 
 .search_add {
@@ -47,7 +49,8 @@
 }
 
 .icon-tianjia {
-    margin-right: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .head-content {
@@ -58,19 +61,20 @@
 }
 
 .content_item_time {
-    height: 20px;
-    width: 50px;
-    margin-left: 158px;
-    margin-left: 163px;
+    margin-left: 180px;
+    padding-top: 10px;
+    display: inline-block;
+    font-size: 9px;
 }
 
 .content_item_title {
-    height: 20px;
-    width: 50px;
     margin-left: 5px;
+    padding-top: 9px;
+    display: inline-block;
 }
 .content_item_home{
-    padding-left: 2px;
+    padding-left: 6px;
+    font-size: 9px;
 }
 .content_item_content {
     height: 20px;
@@ -81,6 +85,7 @@
 /*.content::-webkit-scrollbar{*/
 /*    width: 0;*/
 /*}*/
+
 .icon {
     width: 2em;
     height: 2em;
