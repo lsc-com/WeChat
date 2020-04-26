@@ -5,12 +5,12 @@
                  <i class="iconfont icon-you" style="float:left;height:20px; "></i>
                  <i class="iconfont icon-you" style="float:right; height:20px;"></i>
       </div>-->
-        <mt-header style="color: black;margin-bottom: -15px;">
-            <router-link to="Mail" slot="left">
-            <mt-button icon="back"></mt-button>
-            </router-link>
-            <mt-button icon="more" slot="right"></mt-button>
-        </mt-header>
+      <mt-header style="color: black;margin-bottom: -15px;">
+        <router-link to="Mail" slot="left">
+          <mt-button icon="back"></mt-button>
+        </router-link>
+        <mt-button icon="more" slot="right"></mt-button>
+      </mt-header>
       <span class="about_header_content">
         <img
           src="../../public/imgs/touxiang.jpg"
@@ -24,52 +24,62 @@
         <b>Aaron</b>
       </span>
       <div class="about_span">
-        <span style="margin-right:100px;margin-left:9px;color: rgba(23, 14, 14, 0.51);">微信号:342345</span>
+        <span
+          style="margin-right:100px;margin-left:9px;color: rgba(23, 14, 14, 0.51);font-size: 10px;"
+        >微信号:342345</span>
       </div>
     </div>
     <div class="tongxunlu_top">
       <mt-cell-swipe>
-        <div class="maildetails_span">
-          <span style="color: black;">设置标签和备注</span>
-          <i class="iconfont icon-you" style="margin-left: 163px;"></i>
+        <div class="content_item">
+          <div class="maildetails_span">
+            <span style="color: black;position: absolute;top: 15px;">设置备注和标签</span>
+          </div>
+          <i class="iconfont icon-you" style="float:right;position: sticky;top: 15px;"></i>
         </div>
       </mt-cell-swipe>
     </div>
     <div class="tongxunlu_top">
-      <mt-cell-swipe>
-        <div class="maildetails_span">
-          <span style="color: black;">朋友权限</span>
-          <i class="iconfont icon-you" style="margin-left: 210px; "></i>
-        </div>
-      </mt-cell-swipe>
-    </div>
-    <div style=" background-color: #dcdcdc70; height: 5px;"></div>
-    <div class="tongxunlu_top">
-      <mt-cell-swipe style="height:20px;">
-        <div class="maildetails_span">
-          <span style="color: black;">朋友圈</span>
-          <i class="iconfont icon-you" style="margin-left: 225px; "></i>
-        </div>
-      </mt-cell-swipe>
-    </div>
-    <div class="tongxunlu_top">
-      <mt-cell-swipe>
-        <div class="maildetails_span">
-          <span style="color: black;">更多信息</span>
-          <i class="iconfont icon-you" style="margin-left: 208px; "></i>
+       <mt-cell-swipe>
+        <div class="content_item">
+          <div class="maildetails_span">
+            <span style="color: black;position: absolute;top: 15px;">朋友权限</span>
+          </div>
+          <i class="iconfont icon-you" style="float:right;position: sticky;top: 15px;"></i>
         </div>
       </mt-cell-swipe>
     </div>
     <div style=" background-color: #dcdcdc70; height: 5px;"></div>
     <div class="tongxunlu_top">
+       <mt-cell-swipe>
+        <div class="content_item">
+          <div class="maildetails_span">
+            <span style="color: black;position: absolute;top: 15px;">朋友圈</span>
+          </div>
+          <i class="iconfont icon-you" style="float:right;position: sticky;top: 15px;"></i>
+        </div>
+      </mt-cell-swipe>
+    </div>
+    <div class="tongxunlu_top">
+       <mt-cell-swipe>
+        <div class="content_item">
+          <div class="maildetails_span">
+            <span style="color: black;position: absolute;top: 15px;">更多信息</span>
+          </div>
+          <i class="iconfont icon-you" style="float:right;position: sticky;top: 15px;"></i>
+        </div>
+      </mt-cell-swipe>
+    </div>
+    <div style=" background-color: #dcdcdc70; height: 5px;"></div>
+    <div class="tongxunlu_top">
       <mt-cell-swipe>
-        <div style="margin-left: 107px;" >
+        <div style="position: sticky;left: 40%;">
           <i class="iconfont icon-weixinxiaoxi" style=" "></i>
           <span style="color: rgba(14, 87, 164, 0.68);font-weight:bold;margin-left: 9px;">发消息</span>
         </div>
       </mt-cell-swipe>
       <mt-cell-swipe>
-        <div style="margin-left: 85px;">
+        <div style="position: sticky;left: 36%;">
           <i class="iconfont icon-shipin" style></i>
           <span style="color: rgba(14, 87, 164, 0.68);font-weight:bold;margin-left: 9px;">音视频通话</span>
         </div>
@@ -145,7 +155,7 @@ export default {
   margin-top: -38px;
   margin-left: 87px;
 }
-.mint-header{
-    background-color: #f0f8ff00;
+.mint-header {
+  background-color: #f0f8ff00;
 }
 </style>
