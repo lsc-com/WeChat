@@ -3,11 +3,11 @@
         <div class="about_header">
 
             <span class="about_header_content"><img src="../../public/imgs/touxiang.jpg" alt width="65px" height="65px" style="border-radius: 5px;"/></span>
-            <span style="margin-left:15px;  font-size:20px; "><b>阿克汉</b></span>
+            <span style="margin-left:15px;  font-size:20px;"><b>阿克汉</b></span>
             <div class="about_span">
-                <span style="margin-right:100px;margin-left:9px;color: rgba(23, 14, 14, 0.51);">微信号</span>
-                <i class="iconfont icon-ico" style="margin-right:37px;"></i>
-                <i class="iconfont icon-you"></i>
+                <span style="margin-right:100px;margin-left:10px;color: rgba(23, 14, 14, 0.51);font-size: 10px;">微信号</span>
+                  <i class="iconfont icon-ico" style="margin-right: 10px;margin-left: 80px;"></i>
+                  <i class="iconfont icon-you"></i>     
             </div>
            
         </div>
